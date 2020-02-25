@@ -10,7 +10,7 @@ public class MyTest {
   public String baseUrl = "http://demo.guru99.com/test/newtours/";
   String driverPath = "C:\\Users\\routsu\\Documents\\DevTools\\selenium\\Drivers\\geckodriver.exe";
   public WebDriver driver ; 
-  
+/*  
   @Test
   public void verifyHomepageTitle() {
 	  System.out.println("Running......");
@@ -22,12 +22,12 @@ public class MyTest {
       String actualTitle = driver.getTitle();
       AssertJUnit.assertEquals(actualTitle, expectedTitle);
       driver.close();
-  }
+  }*/
   
   @Test
   public void testOne() {  
 	  
-	  System.out.println("Test 2 passed......"); 
+	  System.out.println("Test 1 passed......"); 
   }
   
   
