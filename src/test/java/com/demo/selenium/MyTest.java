@@ -22,6 +22,19 @@ public class MyTest {
       String actualTitle = driver.getTitle();
       AssertJUnit.assertEquals(actualTitle, expectedTitle);
       driver.close();
-	  
   }
+  
+  @Test
+  public void testTwo() {  
+	  
+	  System.out.println("Test 2 passed......"); 
+  }
+  
+  @Test
+  public void testThree() {  
+	  
+	  System.out.println("Test 3 passed......"); 
+  }
+    
+	  
 }
