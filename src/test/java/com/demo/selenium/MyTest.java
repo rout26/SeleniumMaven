@@ -25,6 +25,13 @@ public class MyTest {
   }
   
   @Test
+  public void testOne() {  
+	  
+	  System.out.println("Test 2 passed......"); 
+  }
+  
+  
+  @Test
   public void testTwo() {  
 	  
 	  System.out.println("Test 2 passed......"); 
