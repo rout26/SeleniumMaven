@@ -1,80 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13530" started-at="2020-02-25T13:25:59Z" finished-at="2020-02-25T13:26:13Z">
+  <suite name="Default suite" duration-ms="121" started-at="2020-02-26T09:45:08Z" finished-at="2020-02-26T09:45:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13530" started-at="2020-02-25T13:25:59Z" finished-at="2020-02-25T13:26:13Z">
+    <test name="Default test" duration-ms="121" started-at="2020-02-26T09:45:08Z" finished-at="2020-02-26T09:45:08Z">
       <class name="com.demo.selenium.MyTest">
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.demo.selenium.MyTest@482f8f11]" name="testThree" duration-ms="24" started-at="2020-02-25T13:25:59Z" finished-at="2020-02-25T13:25:59Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.demo.selenium.MyTest@77caeb3e]" name="testOne" duration-ms="25" started-at="2020-02-26T09:45:08Z" finished-at="2020-02-26T09:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.demo.selenium.MyTest@77caeb3e]" name="testThree" duration-ms="4" started-at="2020-02-26T09:45:08Z" finished-at="2020-02-26T09:45:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.demo.selenium.MyTest@482f8f11]" name="testTwo" duration-ms="3" started-at="2020-02-25T13:25:59Z" finished-at="2020-02-25T13:25:59Z">
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.demo.selenium.MyTest@77caeb3e]" name="testTwo" duration-ms="2" started-at="2020-02-26T09:45:08Z" finished-at="2020-02-26T09:45:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method status="FAIL" signature="verifyHomepageTitle()[pri:0, instance:com.demo.selenium.MyTest@482f8f11]" name="verifyHomepageTitle" duration-ms="13399" started-at="2020-02-25T13:25:59Z" finished-at="2020-02-25T13:26:13Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Reached error page: about:neterror?e=dnsNotFound&u=http%3A//demo.guru99.com/test/newtours/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20demo.guru99.com.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ZZROUTSU01', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 22344, moz:profile: C:\Users\routsu\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f33dc1e-6c4d-401d-9ed3-ea9ed1c25e0c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//demo.guru99.com/test/newtours/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20demo.guru99.com.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ZZROUTSU01', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 22344, moz:profile: C:\Users\routsu\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f33dc1e-6c4d-401d-9ed3-ea9ed1c25e0c
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.demo.selenium.MyTest.verifyHomepageTitle(MyTest.java:20)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomepageTitle -->
       </class> <!-- com.demo.selenium.MyTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
